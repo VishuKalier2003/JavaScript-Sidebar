@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar-toggle {
+    margin: 16px;
+    background-color: none;
+}
+
+#toggle-image {
+    height: 25px;
+    width: 25px;
+}
+
+.bar-button {
+    height: 25px;
+    width: 25px;
+    border: none;
+    background-color: none;
+}
+
+.image {
+    position: relative;
+    height: 25px;
+    width: 25px;
+    left: -8px;
+    top: -4px;
+    box-shadow: 2px 2px 0px 2px black;
+}
+
+.sidebar {
+    position: absolute;
+    font-size: 20px;
+    padding-left: 10px;
+    outline: solid green 2px;
+}
+
+.links {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-rows: repeat(5, 50px);
+}
+
+li {
+    width: 80px;
+    list-style: none;
+}
+
+.show-elements {
+    /*Creating a CSS class not pointing to any HTML tag, it will point to the Js element*/
+    transform: translateX(-100%);
+}
+
+a {
+    /*Margin :- top, right, bottom, left*/
+    margin: 0px 0px 0px 20px;
+    position: relative;
+    padding: 0;
+    top: 18px;
+    text-decoration: none;
+}
